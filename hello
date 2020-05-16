@@ -1,0 +1,4 @@
+#!/usr/local/bin/node
+
+let birthday = new Date("11 September 1994")
+console.log(birthday);

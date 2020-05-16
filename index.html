@@ -15,8 +15,10 @@
     <h1>Hello, world!</h1>
     <p>This page includes an alert written in JavaScript.</p>
     <script src="lib.js"></script>
+    <script src="day.js"></script>
     <script>
-      alert("hello, world!");
+      let now = new Date();
+      alert(`Hello, world! Happy ${dayName(now)}.`);
     </script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
